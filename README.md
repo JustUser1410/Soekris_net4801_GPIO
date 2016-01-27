@@ -25,26 +25,26 @@ In the <command> section you fill in one of the below:
 
 Pin assignment of the Net4801 GPIOs
 
-                     +----+----+
-               3,3 V |  1 |  2 | 5 V
-                     +----+----+
-GPIO0   Port 2 Bit 0 |  3 |  4 | Port 2 Bit 1   GPIO1
-                     +----+----+
-GPIO2   Port 2 Bit 2 |  5 |  6 | Port 2 Bit 3   GPIO3
-                     +----+----+
-GPIO4   Port 2 Bit 4 |  7 |  8 | Port 2 Bit 5   GPIO5
-                     +----+----+
-GPIO6   Port 2 Bit 6 |  9 | 10 | Port 2 Bit 7   GPIO7
-                     +----+----+
-                 GND | 11 | 12 | Port 0 Bit 4   GPIO8
-                     +----+----+
-GPIO9   Port 0 Bit 5 | 13 | 14 | GND
-                     +----+----+
-GPIO10  Port 1 Bit 3 | 15 | 16 | Port 1 Bit 2   GPIO11
-                     +----+----+
-                 GND | 17 | 18 | unknown (docs say GND, but is 3.3V on my box)
-                     +----+----+
-                 TXD | 19 | 20 | RXD
-                     +----+----+
+                         +----+----+
+                   3,3 V |  1 |  2 | 5 V
+                         +----+----+
+    GPIO0   Port 2 Bit 0 |  3 |  4 | Port 2 Bit 1   GPIO1
+                         +----+----+
+    GPIO2   Port 2 Bit 2 |  5 |  6 | Port 2 Bit 3   GPIO3
+                         +----+----+
+    GPIO4   Port 2 Bit 4 |  7 |  8 | Port 2 Bit 5   GPIO5
+                         +----+----+
+    GPIO6   Port 2 Bit 6 |  9 | 10 | Port 2 Bit 7   GPIO7
+                         +----+----+
+                     GND | 11 | 12 | Port 0 Bit 4   GPIO8
+                         +----+----+
+    GPIO9   Port 0 Bit 5 | 13 | 14 | GND
+                         +----+----+
+    GPIO10  Port 1 Bit 3 | 15 | 16 | Port 1 Bit 2   GPIO11
+                         +----+----+
+                     GND | 17 | 18 | unknown (docs say GND, but is 3.3V on my box)
+                         +----+----+
+                     TXD | 19 | 20 | RXD
+                         +----+----+
 
 Error_LED => GPIO20 which is pin 3. Other documents say it's pin 6, but none of them made my LED blink.
