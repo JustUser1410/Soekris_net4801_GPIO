@@ -1,5 +1,6 @@
 # Soekris_net4801_GPIO
 Kernel module to manipulate individual GPIO pins.
+I used buildroot to compile everything
 There is also a shell script to set the pins at once.
 
 These are all possible functions that might be done with our kernel module.
